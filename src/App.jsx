@@ -6,7 +6,7 @@ import img5 from './imgs/img5.jpeg'
 import img6 from './imgs/img6.jpeg'
 import img7 from './imgs/img7.jpeg'
 
-const phone = '5519983057540'
+const phone = '5519981038842'
 const instagramUrl = 'https://www.instagram.com/ws__pinturas/'
 const makeWhatsappUrl = (message) => `https://wa.me/${phone}?text=${encodeURIComponent(message)}`
 const whatsappUrl = makeWhatsappUrl('Olá, Wagner! Encontrei a WS Pinturas pelo site e gostaria de solicitar um orçamento.')
@@ -140,7 +140,7 @@ function About() {
 }
 
 function Contact() {
-  return <section className="contact" id="contato" aria-labelledby="contact-title"><div className="contact-accent" aria-hidden="true">WS</div><div className="page-shell contact-inner reveal"><div className="eyebrow">Vamos conversar?</div><h2 id="contact-title">Seu ambiente merece<br /><em>uma nova cara.</em></h2><p>Fale com Wagner e solicite seu orçamento.</p><a className="button button-dark" href={whatsappUrl} target="_blank" rel="noreferrer">Chamar no WhatsApp <Arrow diagonal /></a><div className="contact-meta"><a href="tel:+5519983057540">(19) 98305-7540</a><span>Santa Rita do Passa Quatro e região</span><a href={instagramUrl} target="_blank" rel="noreferrer">@ws__pinturas</a></div></div></section>
+  return <section className="contact" id="contato" aria-labelledby="contact-title"><div className="contact-accent" aria-hidden="true">WS</div><div className="page-shell contact-inner reveal"><div className="eyebrow">Vamos conversar?</div><h2 id="contact-title">Seu ambiente merece<br /><em>uma nova cara.</em></h2><p>Fale com Wagner e solicite seu orçamento.</p><a className="button button-dark" href={whatsappUrl} target="_blank" rel="noreferrer">Chamar no WhatsApp <Arrow diagonal /></a><div className="contact-meta"><a href="tel:+5519981038842">(19) 98103-8842</a><span>Santa Rita do Passa Quatro e região</span><a href={instagramUrl} target="_blank" rel="noreferrer">@ws__pinturas</a></div></div></section>
 }
 
 function Footer() {
